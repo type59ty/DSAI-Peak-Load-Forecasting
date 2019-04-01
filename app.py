@@ -3,7 +3,8 @@ import numpy as np
 from sklearn.metrics import mean_squared_error
 from sklearn.svm import SVC
 from math import sqrt
-
+import warnings
+warnings.filterwarnings('ignore')
 
 def read_data():
     max_peak  = []
