@@ -7,6 +7,7 @@ This file
 The packages you need to install at first.
 - **forecasting.ipynb**
 The main program built in jupyter-notebook.
+link for nbviewer : [forecasting.ipynb](https://nbviewer.jupyter.org/github/type59ty/DSAI-Peak-Load-Forecasting/blob/master/forecasting.ipynb)
 - **app. py**
 The main program. 
 - **next_week.csv**
