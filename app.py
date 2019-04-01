@@ -43,6 +43,7 @@ def output(nxweek_pred):
         writer.writerow(['date','peak_load(MW)'])
         for i in range(20190402,20190409):
             writer.writerow([i, int(nxweek_pred[i-20190402])])
+    print("\nOutput file: submission.csv")
 
 
 if __name__=='__main__':
